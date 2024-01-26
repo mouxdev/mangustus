@@ -12,6 +12,10 @@ snakeToCamel = (str) => {
       .replace('_', ''))
 }
 
+capitalizeFirstLetter = (str) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 parseObject = (obj) => {
     let ret = {};
     for (const f of Object.getOwnPropertyNames(obj)) {
@@ -27,5 +31,5 @@ parseField = (field) => {
     if (field.type === "array") {
         return [parseField(field.items)]
     }
-    return { type: field.type }
+    return { type: capitalize(field.type) }
 }
