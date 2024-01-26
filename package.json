@@ -1,6 +1,6 @@
 {
     "name": "mangustus",
-    "version": "1.0.4",
+    "version": "1.0.41",
     "description": "json-schema.org to mongoose schema converter",
     "main": "index.js",
     "bin": {
