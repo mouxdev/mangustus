@@ -1,0 +1,27 @@
+{
+    "name": "mangustus",
+    "version": "1.0.5",
+    "description": "json-schema.org to proto3 object converter",
+    "main": "index.js",
+    "bin": {
+      "mangustus": "cli.js"
+    },
+    "scripts": {
+      "test": "node test.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/moux/mangustus.git"
+    },
+    "author": "moux",
+    "license": "BSD",
+    "bugs": {
+      "url": "https://github.com/moux/mangustus/issues"
+    },
+    "homepage": "https://github.com/moux/mangustus",
+    "dependencies": {
+      "protocol-buffers-schema": "^2.0.3",
+      "tape": "^4.2.0"
+    }
+  }
+  
