@@ -1,7 +1,7 @@
 {
     "name": "mangustus",
-    "version": "1.0.5",
-    "description": "json-schema.org to proto3 object converter",
+    "version": "1.0.4",
+    "description": "json-schema.org to mongoose schema converter",
     "main": "index.js",
     "bin": {
       "mangustus": "cli.js"
@@ -20,8 +20,6 @@
     },
     "homepage": "https://github.com/moux/mangustus",
     "dependencies": {
-      "protocol-buffers-schema": "^2.0.3",
-      "tape": "^4.2.0"
     }
   }
   
