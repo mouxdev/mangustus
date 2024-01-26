@@ -12,7 +12,7 @@ snakeToCamel = (str) => {
       .replace('_', ''))
 }
 
-capitalizeFirstLetter = (str) => {
+capitalize = (str) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
