@@ -31,5 +31,11 @@ parseField = (field) => {
     if (field.type === "array") {
         return [parseField(field.items)]
     }
+    if (field.enum) {
+        return {
+            type: "String",
+            enum: field.enum
+        }
+    }
     return { type: capitalize(field.type) }
 }
